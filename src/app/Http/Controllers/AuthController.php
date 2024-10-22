@@ -11,7 +11,6 @@ use App\Http\Requests\LoginRequest;
 
 class AuthController extends Controller
 {
-
     protected $creator;
 
     public function __construct(CreateNewUser $creator)
