@@ -7,12 +7,20 @@ Dockerビルド
 Lavaral環境構築  
 1.docker-compose exec php bash  
 2.composer install  
-3..env.exampleファイルから.envを作成し、環境変数を変更  
-4.php artisan key:generate  
-5.php artisan migrate  
-6.php artisan db:seed  
-7.php artisan test  
-8.php artisan storage:link  
+3.cp .env.example .env  
+4..envファイルの修正  
+　(1)DB_HOSTをmysqlに変更  
+　(2)DB_DATABASEをlaravel_dbに変更  
+　(3)DB_USERNAMEをlaravel_userに変更  
+　(4)DB_PASSをlaravel_passに変更  
+　(5)MAIL_FROM_ADDRESSに送信元アドレスを設定  
+　(6)STRIPE_PUBLIC_KEY=を設定  
+　(7)STRIPE_SECRET_KEY=を設定  
+5.php artisan key:generate  
+6.php artisan migrate  
+7.php artisan db:seed  
+8.php artisan test  
+9.php artisan storage:link  
 
 
 ## 使用技術
