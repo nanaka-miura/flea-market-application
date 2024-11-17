@@ -28,7 +28,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => 'スタイリッシュなデザインのメンズ腕時計',
                 'condition' => '良好',
                 'price' => '15000',
-                'image' => 'products/gegjru0dt7CyUrcYipJ1mqOYlcOw2MB6fMcO4ihH.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Armani+Mens+Clock.jpg',
                 'sold_out' => false,
             ],
             [
@@ -39,7 +39,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '高速で信頼性の高いハードデ ィスク',
                 'condition' => '目立った傷や汚れなし',
                 'price' => '5000',
-                'image' => 'products/NpHZby7LSxTg4vmOg8pv6qywGHNshdAlxfprLBtU.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/HDD+Hard+Disk.jpg',
                 'sold_out' => false,
             ],
             [
@@ -50,7 +50,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '新鮮な玉ねぎ3束のセット',
                 'condition' => 'やや傷や汚れあり',
                 'price' => '300',
-                'image' => 'products/5KdnRuj1jSqBaSTEifqFRHB5GCk1001zaqZQAHRE.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/iLoveIMG+d.jpg',
                 'sold_out' => false,
             ],
             [
@@ -61,7 +61,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => 'クラシックなデザインの革靴',
                 'condition' => '状態が悪い',
                 'price' => '4000',
-                'image' => 'products/mQSDXK8a5yMC1GNmPLp4mBUSbx2kmF9iu5puylHf.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Leather+Shoes+Product+Photo.jpg',
                 'sold_out' => false,
             ],
             [
@@ -72,7 +72,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '高性能なノートパソコン',
                 'condition' => '良好',
                 'price' => '45000',
-                'image' => 'products/jPtK3RPiXbU14MAq9vy3I9b4Rg0ojV35xCnVNM2I.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Living+Room+Laptop.jpg',
                 'sold_out' => false,
             ],
             [
@@ -83,7 +83,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '高音質のレコーディング用マイク',
                 'condition' => '目立った傷や汚れなし',
                 'price' => '8000',
-                'image' => 'products/C8C7KSAhaCZGtBqvlimuwMdkNZ366MUhUqM3Pbdf.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Music+Mic+4632231.jpg',
                 'sold_out' => false,
             ],
             [
@@ -94,7 +94,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => 'おしゃれなショルダーバッグ',
                 'condition' => 'やや傷や汚れあり',
                 'price' => '3500',
-                'image' => 'products/iknEVLgOLzL8sgEddHC85K9NdbqNdfgVrDBCTggI.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Purse+fashion+pocket.jpg',
                 'sold_out' => false,
             ],
             [
@@ -105,7 +105,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '使いやすいタンブラー',
                 'condition' => '状態が悪い',
                 'price' => '500',
-                'image' => 'products/JVIGUeZwwNghTE7wHfxsdxHEU6JRutaLF6FyhoSu.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Tumbler+souvenir.jpg',
                 'sold_out' => false,
             ],
             [
@@ -116,7 +116,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '手動のコーヒーミル',
                 'condition' => '良好',
                 'price' => '4000',
-                'image' => 'products/5nt3KJGI1zeJRkZ8njQL64ow8gSnVeDYYipKMtLh.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/Waitress+with+Coffee+Grinder.jpg',
                 'sold_out' => false,
             ],
             [
@@ -127,7 +127,7 @@ class ProductsTableSeeder extends Seeder
                 'content' => '便利なメイクアップセット',
                 'condition' => '目立った傷や汚れなし',
                 'price' => '2500',
-                'image' => 'products/dZFHFBJuC1KAIQtsRskpyTZAWry5UqGUelMhcGGe.jpg',
+                'image' => 'https://coachtech-matter.s3.ap-northeast-1.amazonaws.com/image/%E5%A4%96%E5%87%BA%E3%83%A1%E3%82%A4%E3%82%AF%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A%E3%82%BB%E3%83%83%E3%83%88.jpg',
                 'sold_out' => false,
             ],
         ];

@@ -31,7 +31,7 @@
             @foreach ($products as $product)
                 <div class="product-list__item--box" id="content1">
                     <a class="product-list__item--link" href="{{ route('products.show', $product->id) }}">
-                        <img class="product-list__item--img" src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}">
+                        <img class="product-list__item--img" src="{{ $product->image }}" alt="{{ $product->name }}">
                         <p class="product-list__item--name">{{ $product->name }}</p>
                     </a>
                 </div>
@@ -40,7 +40,7 @@
             @foreach ($purchasedProducts as $order)
                 <div class="product-list__item--box" id="content2">
                     <a class="product-list__item--link" href="{{ route('products.show', $order->product->id) }}">
-                        <img class="product-list__item--img" src="{{ asset('storage/' . $order->product->image) }}" alt="{{ $order->product->name }}">
+                        <img class="product-list__item--img" src="{{ $order->product->image }}" alt="{{ $order->product->name }}">
                         <p class="product-list__item--name">{{ $order->product->name }}</p>
                     </a>
                 </div>

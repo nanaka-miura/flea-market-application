@@ -12,7 +12,7 @@
             <div class="purchase__content--detail">
                 <div class="product__detail">
                     <div class="product__detail--img">
-                        <img class="product__detail--img--item" src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}">
+                        <img class="product__detail--img--item" src="{{ $product->image }}" alt="{{ $product->name }}">
                     </div>
                     <div class="product__detail--group">
                         <span class="product__detail--name">{{ $product->name  }}</span>
