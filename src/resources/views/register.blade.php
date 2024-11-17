@@ -50,7 +50,8 @@
                     <div class="form__error">
                         @error('password')
                         {{ $message }}
-                        @enderror</div>
+                        @enderror
+                    </div>
                 </div>
                 <div class="form__group">
                     <span class="form__label">確認用パスワード</span>
